@@ -11,6 +11,7 @@ import {
   checkWin
 } from "./GameBoard";
 
+// eslint-disable-next-line react/prop-types
 const Cell = ({ number }) => {
   return (
     <div className={`cell cell-${number}`}>{number > 0 ? number : ""}</div>
